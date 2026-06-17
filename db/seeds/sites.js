@@ -4,7 +4,8 @@ export const seed = (knex) => {
     { id: 2, name: 'footsites' },
     { id: 3, name: 'shopify' },
     { id: 4, name: 'demandware' },
-    { id: 5, name: 'supremenewyork' }
+    { id: 5, name: 'supremenewyork' },
+    { id: 6, name: 'fanatics' }
   ];
 
   return knex('sites')
